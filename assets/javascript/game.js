@@ -1,17 +1,50 @@
 $(document).ready(function () {
 
-        
-    $(document).on('click', function() {
-        $("#testing").html("Yo you clickin' bitch");
-        
-    })
+    console.log("this bitch is ready");
 
-    var loopLen = 5;
+    //dealerHand
+    //wins
+    //losses
+    //totalScore
+    //points
+    //displayToUser
+
+    //on game start 
+
+    //generate random number for dealer between 19 and 120
+    
+    //displayToUser dealerHand
+
+    //display 4 crystals
+      // red, green, yellow, blue
+      // each of the 4 crystals gets a random number between 1 and 12
+
+
+    //on crystal click
+      // add this crystals worth to totalScore
+      // displayToUser totalScore
 
     
-    for(var i = 0; i < loopLen; i++){
-        $("#loops").html("<div>","Balls out!");
-    }
-        
-});
+    //if totalScore === dealerHand
+      // display "You won" to user
+      // add 1 to wins counter
+      
+      //
+      // generate new random number for dealerHand
+      // reset totalScore to 0
+      // assign new random number to each crystal
+
+    //if totalScore > dealerHand
+      // displayToUser "You lost!!"
+      // add 1 to Losses
+      
+      // 
+      // generate new random number for dealerHand
+      // reset totalScore to 0
+      // assign new random number to each crystal
+
+
+
+  });
+
 

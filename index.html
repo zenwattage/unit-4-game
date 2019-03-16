@@ -5,16 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css">
-
-    <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery.js"></script>
   <!-- my css -->
-    <script src="assets/javascript/game.js"></script>
+    
 
 </head>
 <body>
-    <p id="testing"></p>
-    <h1 id="loops"></h1>
+
+  <div class="title">
+    <p id="title">CrystalsCollector!</p>
+  </div>
+
+
+  <div class="instructions">
+    <p id="instructions">
+      You will be given a random number at the start of the game.
+      <br>
+      <br>
+      There are four crystals below. By clicking on a crystal you will add a speciific amount of points to your total score.
+      <br>
+      <br>
+      You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.
+      <br>
+      <br>
+      The value of each crystal is hidden from you until you click on it.
+      <br>
+      <br>
+      Each time the game starts, the game will change the values of each crystal.
+    </p>
+  </div>
+
+
+
+  <div class="current_score">
+    <p id="current_score"></p>
+  </div>
+
+  <div class="score_board">
+    <p id="scoreboard"></p>
+  </div>
+
+  <div class="crystals">
+    <ul class="crystal_List">
+      <li class="crystal" id="red">r</li>
+      <li class="crystal" id="blue">b</li>
+      <li class="crystal" id="yellow">y</li>
+      <li class="crystal" id="green">g</li>
+    </ul>
+  </div>
+
+  <div class="score_label">
+    <p id="score_label">Your total score is: </p>
+  </div>
+  
+  <div class="total_score_display">
+    <p id="total_score">?</p>
+  </div>
+
+
+
+
+
+<script src="assets/javascript/game.js"></script>
+        <!-- JQuery -->
+  
 </body>
 </html>
