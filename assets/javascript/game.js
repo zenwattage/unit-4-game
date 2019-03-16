@@ -8,6 +8,12 @@ $(document).ready(function () {
     //totalScore
     //points
     //displayToUser
+    var deadlerHand;
+    var wins;
+    var losses;
+    var totalScore;
+    var points;
+    var displayToUser;
 
     //on game start 
 
