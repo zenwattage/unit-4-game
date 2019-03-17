@@ -71,7 +71,7 @@ $(document).ready(function () {
     //console.log(crystalRandom);
 
     //displayToUser dealerHand
-    $("#dealer_hand").text(dealerHand);
+    //$("#dealer_hand").text(dealerHand);
 
     //display 4 crystals
     /* $("#red").prepend('<img src="assets/images/red.jpg" />')
