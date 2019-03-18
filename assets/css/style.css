@@ -2,3 +2,22 @@ img {
     height: 50px;
     width: 50px;
 }
+
+.dealer {
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: fit-content;
+}
+
+.score_label { 
+    background-color: cornflowerblue;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.total_score_display {
+    background-color: cornflowerblue;
+    width: fit-content;
+    padding: 10px;
+}
