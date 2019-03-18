@@ -29,9 +29,7 @@ $(document).ready(function () {
       return Math.floor(Math.random() * (crystalMax - crystalMin + 1)) + crystalMin;
     };
 
-    // generate new random number for dealerHand
-    // reset totalScore to 0
-    // assign new random number to each crystal
+
     function resetStuff() {
       //rest running total
       runningTotal = 0;
@@ -65,13 +63,9 @@ $(document).ready(function () {
 
     };
 
-    
-
     //map random crystal number to each crystal
     var newCrystalArray = crystals.map(crystals => getRandomCrystal());
     
-    //console.log("Array is: " + newCrystalArray);
-
     //display dealer hand
     dealerHand = getRandomDealer();
     $("#dealer_hand").append(dealerHand);
@@ -102,11 +96,6 @@ $(document).ready(function () {
       winOrLose();
     });
  
-
-    
-
-
-
    });
 
  

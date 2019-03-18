@@ -1,23 +1,28 @@
 img {
     height: 50px;
     width: 50px;
+    background-color: cornflowerblue;
+}
+
+body {
+    background-image: url("http://hdqwalls.com/wallpapers/desert-crystal-digital-art-4k.jpg");
 }
 
 .dealer {
     background-color: cornflowerblue;
     padding: 10px;
-    width: fit-content;
+    width: 100px;
 }
 
 .score_label { 
     background-color: cornflowerblue;
-    width: fit-content;
+    width: 150px;
     padding: 10px;
     margin-bottom: 5px;
 }
 
 .total_score_display {
     background-color: cornflowerblue;
-    width: fit-content;
+    width: 100px;
     padding: 10px;
 }
