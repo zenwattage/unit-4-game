@@ -10,8 +10,8 @@ $(document).ready(function () {
     var blue = 0;
     var yellow = 0;
     
-    $("#scoreboard").append("Wins: " + wins);
-    $("#scoreboard").append("Losses: " + losses);
+    //$("#scoreboard").append("Wins: " + wins);
+    //$("#scoreboard").append("Losses: " + losses);
     
    //array of crystal variables
     var crystals = [red,green,blue,yellow];
